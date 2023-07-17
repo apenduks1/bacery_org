@@ -1,0 +1,47 @@
+main {
+  background-image: url(/img/image/photo_2022-06-05_13-14-26\ 1.png);
+  width: 1438px;
+  height: 1023px;
+  padding: 0;
+}
+.main_list {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  padding: 55px 30px 71px;
+  
+}
+.nav_list {
+  display: flex;
+  flex-direction: row;
+}
+.main_li {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  padding: 55px 30px 20px 156px;
+}
+h1{
+  color: #FFF;
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+padding:0px 300px 0px 146px;
+}
+.main_a{
+  color: #FFF;
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding:0px 460px 44px 160px;
+}
