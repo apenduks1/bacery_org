@@ -11,8 +11,7 @@ main {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  padding: 55px 30px 71px;
-  
+  padding: 55px 15px 15px 0px;
 }
 .nav_list {
   display: flex;
@@ -25,23 +24,77 @@ main {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  padding: 55px 30px 20px 156px;
+  padding: 55px 15px 15px 110px;
 }
-h1{
-  color: #FFF;
-font-family: Inter;
-font-size: 70px;
-font-style: normal;
-font-weight: 200;
-line-height: normal;
-padding:0px 300px 0px 146px;
+h1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  margin: 0px 724px 0px 146px;
 }
-.main_a{
-  color: #FFF;
-font-family: Inter;
-font-size: 21px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-padding:0px 460px 44px 160px;
+.main_p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 22px 760px 33px 146px;
+}
+.main_btn {
+  border-radius: 17px;
+  background: #b47b48;
+  width: 207px;
+  height: 57px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0px 1067px 125px 146px;
+}
+.main_btn:hover {
+  background-color: aqua;
+  color: black;
+  transition: 2s;
+}
+.baking_item {
+  background: #272727;
+  width: 310px;
+  height: 225px;
+}
+.baking_p1 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.baking_p2 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.baking_btn {
+  background: #c85312;
+  width: 79px;
+  height: 34px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.baking_list {
+  display: flex;
+  justify-content: space-between;
 }
