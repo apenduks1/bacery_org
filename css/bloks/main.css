@@ -14,6 +14,19 @@
   line-height: normal;
   padding: 55px 15px 15px 0px;
 }
+.main_list a{
+  color: #fff;
+}
+.main_li a{
+  color: #fff;
+}
+.main_list a:hover{
+  color: #2196f3;
+  transition: 0.7s;
+}
+.main_li a:hover{
+  color: #2196f3;
+}
 .nav_list {
   display: flex;
   flex-direction: row;
@@ -59,7 +72,7 @@ h1 {
   margin: 0px 1067px 125px 146px;
 }
 .main_btn:hover {
-  background-color: aqua;
+  background-color:#2196f3;
   color: black;
   transition: 2s;
 }
@@ -67,6 +80,8 @@ h1 {
   background: #272727;
   width: 310px;
   height: 225px;
+  display: flex;
+  
 }
 .baking_p1 {
   color: #fff;
@@ -98,4 +113,5 @@ h1 {
 .baking_list {
   display: flex;
   justify-content: space-between;
+  padding: 125px 115px 36px 162px;
 }

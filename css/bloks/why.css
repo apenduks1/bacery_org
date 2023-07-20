@@ -1,17 +1,40 @@
 .why {
-  background-image: url(/img/image/why_bg.png);
-  display: flex;
-  justify-content: space-between;
+  background-image: url(../../img/image/why_bg.png);
   gap: 30px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 704px;
 }
 .why_p {
-  color: #FFF;
+  color: #fff;
   font-family: Inter;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.why_title {
+  padding: 55px 130px;
+  color: #d9d9d9;
+  font-family: Italiana;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.why_list {
+  display: flex;
+  flex-direction: row;
+  padding: 132px 0px 51px;
+  gap:200px;
+  justify-content: center;
+}
+.why_item:hover path {
+  fill: #2196f3;
+  transition: 0.9s;
+}
+.why_item:hover p {
+  color:  #2196f3;
+  transition: 0.9s;
 }
