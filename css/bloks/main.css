@@ -1,8 +1,9 @@
-main {
+.main {
   background-image: url(/img/image/photo_2022-06-05_13-14-26\ 1.png);
-  width: 1438px;
-  height: 1023px;
   padding: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .main_list {
   color: #fff;

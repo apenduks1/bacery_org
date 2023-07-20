@@ -1,5 +1,17 @@
 .why {
-    background-image: url(/img/image/why_bg.png);
-    width: 2730px;
-height: 580px;
+  background-image: url(/img/image/why_bg.png);
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.why_p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
