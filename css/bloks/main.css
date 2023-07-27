@@ -1,3 +1,6 @@
+.overlay {
+  background: linear-gradient(66deg, #000 0%, rgba(0, 0, 0, 0.00) 5%);
+}
 .main {
   background-image: url(/img/image/photo_2022-06-05_13-14-26\ 1.png);
   padding: 0;
@@ -26,6 +29,7 @@
 }
 .main_li a:hover{
   color: #2196f3;
+  transition: 0.7s;
 }
 .nav_list {
   display: flex;
@@ -81,7 +85,10 @@ h1 {
   width: 310px;
   height: 225px;
   display: flex;
-  
+}
+.baking_item:hover {
+  background: #EBAD51;
+  transition: 0.8s;
 }
 .baking_p1 {
   color: #fff;

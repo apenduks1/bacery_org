@@ -26,7 +26,7 @@
 .why_list {
   display: flex;
   flex-direction: row;
-  padding: 132px 0px 51px;
+  padding: 132px 0px 45px 16px;
   gap:200px;
   justify-content: center;
 }
@@ -37,4 +37,7 @@
 .why_item:hover p {
   color:  #2196f3;
   transition: 0.9s;
+}
+.why_overlay {
+  background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0.00) 100%);
 }
