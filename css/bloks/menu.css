@@ -57,8 +57,7 @@
     width: 860px;
     row-gap: 7px;
 }
-.menu_img> img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%;
+.menu_img > iframe  { 
+  width: 535px ;
+  height:487px;
 }
