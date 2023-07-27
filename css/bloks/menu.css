@@ -37,6 +37,7 @@
   height: 41px;
   display: flex;
   justify-content: center;
+  border: n;
 }
 .menu_btn:hover {
   background: #2196f3;
@@ -57,7 +58,8 @@
     width: 860px;
     row-gap: 7px;
 }
-.menu_img > iframe  { 
-  width: 535px ;
-  height:487px;
+.menu_img > img  {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
 }

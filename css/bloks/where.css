@@ -12,9 +12,10 @@
   font-weight: 400;
   line-height: normal;
 }
-.where_img img {
+.where_img iframe {
   width: 535.213px;
   height: 487px;
+
 }
 .where_groups {
   margin-left: 160px;

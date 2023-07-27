@@ -2,7 +2,7 @@
   background: linear-gradient(66deg, #000 0%, rgba(0, 0, 0, 0.00) 5%);
 }
 .main {
-  background-image: url(/img/image/photo_2022-06-05_13-14-26\ 1.png);
+  background-image: url(../../img/image/photo_2022-06-05_13-14-26\ 1.png);
   padding: 0;
   background-position: center;
   background-size: cover;
@@ -74,6 +74,7 @@ h1 {
   font-weight: 300;
   line-height: normal;
   margin: 0px 1067px 125px 146px;
+  border: none ;
 }
 .main_btn:hover {
   background-color:#2196f3;
@@ -116,6 +117,7 @@ h1 {
   font-style: normal;
   font-weight: 900;
   line-height: normal;
+  border: none;
 }
 .baking_list {
   display: flex;
