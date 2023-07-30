@@ -1,5 +1,5 @@
 .overlay {
-  background: linear-gradient(66deg, #000 0%, rgba(0, 0, 0, 0.00) 5%);
+  background: linear-gradient(66deg, #000 0%, rgba(0, 0, 0, 0) 5%);
 }
 .main {
   background-image: url(../../img/image/photo_2022-06-05_13-14-26\ 1.png);
@@ -17,17 +17,17 @@
   line-height: normal;
   padding: 55px 15px 15px 0px;
 }
-.main_list a{
+.main_list a {
   color: #fff;
 }
-.main_li a{
+.main_li a {
   color: #fff;
 }
-.main_list a:hover{
+.main_list a:hover {
   color: #2196f3;
   transition: 0.7s;
 }
-.main_li a:hover{
+.main_li a:hover {
   color: #2196f3;
   transition: 0.7s;
 }
@@ -74,10 +74,10 @@ h1 {
   font-weight: 300;
   line-height: normal;
   margin: 0px 1067px 125px 146px;
-  border: none ;
+  border: none;
 }
 .main_btn:hover {
-  background-color:#2196f3;
+  background-color: #2196f3;
   color: black;
   transition: 2s;
 }
@@ -88,7 +88,7 @@ h1 {
   display: flex;
 }
 .baking_item:hover {
-  background: #EBAD51;
+  background: #ebad51;
   transition: 0.8s;
 }
 .baking_p1 {
@@ -123,4 +123,47 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding: 125px 115px 36px 162px;
+}
+@media (min-width: 300px) {
+  .nav_list {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    row-gap: 10px;
+  }
+  h1 {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 38px;
+  }
+  .main_p {
+    color: #fff;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+    margin-left: 10px;
+}
+.main_btn {
+  margin: 0;
+  margin-left:80px ;
+}
+.baking_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap:30px ;
+}
 }
