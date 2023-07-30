@@ -4,4 +4,32 @@
     margin: 0 auto;
   }
 }
-  
+@media (min-width: 320px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    font-size: 16px;
+  }
+}

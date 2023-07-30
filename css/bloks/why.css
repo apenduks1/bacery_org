@@ -26,7 +26,8 @@
 .why_list {
   display: flex;
   flex-direction: row;
-  padding: 132px 0px 45px 16px;
+  padding-left: 16px;
+  margin-top: 187px ;
   gap:200px;
   justify-content: center;
 }

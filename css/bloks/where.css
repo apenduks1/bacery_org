@@ -55,8 +55,10 @@
   line-height: normal;
 }
 .how {
-  margin: 120px 0px 250px 132px;
+  margin-left:  132px;
+  margin-top: 50px ;
 }
 .when {
-  margin: 120px 205px 250px 0px  ;
+  margin-right:  150px  ;
+  margin-top: 50px ;
 }

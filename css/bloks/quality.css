@@ -31,14 +31,16 @@
 }
 .quality_list_big {
   display: flex;
-  margin: 0px 172px;
+  margin-left: 0px;
 }
 .quality_item_big1 {
-  margin: 0px 0px 307px;
+  margin-left: 30px;
 }
 .quality_item_big2 {
-  margin: 84px 6px 0px;
+  margin-left: 30px;
+  margin-top: 60px;
 }
 .quality_item_big3 {
-  margin: 150px 12px 0px;
+  margin-left: 30px;
+  margin-top: 150px;
 }

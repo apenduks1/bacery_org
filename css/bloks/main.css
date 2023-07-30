@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  padding: 55px 15px 15px 0px;
+  
 }
 .main_list a {
   color: #fff;
@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  padding: 55px 15px 15px 110px;
+  
 }
 h1 {
   color: #fff;
@@ -51,7 +51,8 @@ h1 {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  margin: 0px 724px 0px 146px;
+  margin-left:146px;
+
 }
 .main_p {
   color: #fff;
@@ -60,7 +61,7 @@ h1 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin: 22px 760px 33px 146px;
+  margin-left: 146px;
 }
 .main_btn {
   border-radius: 17px;
@@ -73,7 +74,7 @@ h1 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin: 0px 1067px 125px 146px;
+  margin-left:146px;
   border: none;
 }
 .main_btn:hover {
@@ -121,49 +122,8 @@ h1 {
 }
 .baking_list {
   display: flex;
-  justify-content: space-between;
-  padding: 125px 115px 36px 162px;
-}
-@media (min-width: 300px) {
-  .nav_list {
-    display: flex;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    row-gap: 10px;
-  }
-  h1 {
-    padding: 0;
-    margin: 0;
-    color: #fff;
-    font-family: Inter;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-left: 38px;
-  }
-  .main_p {
-    color: #fff;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    margin: 0;
-    margin-left: 10px;
-}
-.main_btn {
-  margin: 0;
-  margin-left:80px ;
-}
-.baking_list {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  row-gap:30px ;
-}
+  gap:80px;
+  margin-top: 125px;
+  margin-bottom: 36px ;
 }

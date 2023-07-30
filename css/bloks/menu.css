@@ -1,4 +1,3 @@
-@media (min-width: 1200px) {
   
   .menu {
     background: #202023;
@@ -65,16 +64,4 @@
     object-fit: cover;
     height: 100%;
   }
-}
 
-@media (min-width: 300px) {
- 
-  .menu_list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-
-  }
-}
