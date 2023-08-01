@@ -35,7 +35,7 @@
 .nav_list {
   display: flex;
   flex-direction: row;
-  margin-left: 146px ;
+  gap: 20px;
   
 }
 .main_li {
@@ -54,7 +54,7 @@ h1 {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  margin-left:146px;
+
 
 }
 .main_p {
@@ -64,7 +64,7 @@ h1 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin-left: 146px;
+  
 }
 .main_btn {
   border-radius: 17px;
@@ -77,7 +77,7 @@ h1 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin-left:146px;
+  
   border: none;
 }
 .main_btn:hover {
