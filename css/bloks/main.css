@@ -7,6 +7,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .main_list {
   color: #fff;
@@ -34,6 +35,8 @@
 .nav_list {
   display: flex;
   flex-direction: row;
+  margin-left: 146px ;
+  
 }
 .main_li {
   color: #fff;

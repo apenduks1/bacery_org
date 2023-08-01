@@ -1,7 +1,7 @@
   
   .menu {
     background: #202023;
-    height: 775px;
+    height:840px;
   }
   
   .menu_title {
@@ -36,9 +36,8 @@
     line-height: normal;
     width: 132px;
     height: 41px;
-    display: flex;
-    justify-content: center;
     border: none;
+    
   }
   .menu_btn:hover {
     background: #2196f3;
