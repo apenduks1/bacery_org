@@ -4,7 +4,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 704px;
+  
 }
 .why_p {
   color: #fff;
@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: row;
   padding-left: 16px;
-  margin-top: 187px ;
+  margin-top: 205px ;
   gap:200px;
   justify-content: center;
 }
@@ -42,3 +42,11 @@
 .why_overlay {
   background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0.00) 100%);
 }
+@media (max-width: 768px) {
+  .why_list {
+   flex-direction: column;
+   align-items: center;
+   width: auto;
+   row-gap: 50px;
+  }
+ }
