@@ -39,6 +39,7 @@
     border: none;
     display: flex;
     margin: 0 auto;
+    margin-top: 10px;
   }
   .menu_btn:hover {
     background: #2196f3;
@@ -48,7 +49,7 @@
   .menu_in {
     border: 1px solid #fff;
     width: 328px;
-    height: 325px;
+    margin-top: 30px;
   }
   .menu_list {
       display: flex;
@@ -72,11 +73,12 @@
   width: auto;
  }
 }
-@media (max-width: 768px) {
-  .baking_list {
-   flex-direction: column;
-   align-items: center;
-   width: auto;
-   row-gap: 100px;
-  }
+@media (max-width: 320px) {
+ .menu_in {
+  width: 200px;
+  margin-left:1px;
+ }
+ .menu_list img {
+  width: 200px;
+ }
  }

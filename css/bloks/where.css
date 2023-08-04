@@ -1,6 +1,6 @@
 .where {
   background: #202023;
-  
+  margin: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -15,10 +15,9 @@
 .where_img iframe {
   width: 535.213px;
   height: 487px;
-
 }
 .where_groups {
-  margin-left: 160px;
+  margin-left: 137px;
 }
 .where_tile_small {
   color: #fff;
@@ -36,7 +35,6 @@
   font-weight: 300;
   line-height: normal;
   margin-bottom: 65px;
-
 }
 .how_desckr2 {
   color: #fff;
@@ -55,22 +53,39 @@
   line-height: normal;
 }
 .how {
-  margin-left:  132px;
-  margin-top: 50px ;
+  margin-left: 132px;
+  margin-top: 50px;
 }
 .when {
-  margin-left: 150px  ;
-  margin-top: 50px ;
+  margin-left: 132px;
+  margin-top: 50px;
 }
-.why_list {
-  display: flex;
-  justify-content: space-between;
-}
+
+
 @media (max-width: 768px) {
-  .why_list {
-   flex-direction: column;
-   align-items: center;
-   width: auto;
-   row-gap: 50px;
+  .where_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 50px;
   }
- }
+  .where_img iframe {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 300px) {
+  .how {
+    margin: 0;
+  }
+  .where_groups {
+    margin: 0;
+  }
+  .when {
+    margin: 0;
+  }
+  .where_img iframe {
+    width: 200px;
+    height: 200px;
+  }
+}

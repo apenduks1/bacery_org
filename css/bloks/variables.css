@@ -4,3 +4,7 @@ a {
 li {
 list-style: none;
 }
+hr {
+    margin:0;
+    color: rgb(120, 119, 119);
+}

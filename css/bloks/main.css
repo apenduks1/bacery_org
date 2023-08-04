@@ -1,6 +1,6 @@
 .overlay {
   padding: 55px 0px 33px 0px;
-  background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0.00) 60.64%);
+  background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 60.64%);
 }
 .main {
   background-image: url(../../img/image/photo_2022-06-05_13-14-26\ 1.png);
@@ -17,7 +17,6 @@
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  
 }
 .main_list a {
   color: #fff;
@@ -46,7 +45,6 @@
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  
 }
 h1 {
   color: #fff;
@@ -55,8 +53,6 @@ h1 {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-
-
 }
 .main_p {
   color: #fff;
@@ -78,7 +74,7 @@ h1 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  margin-top: 33px ;
+  margin-top: 33px;
   border: none;
 }
 .main_btn:hover {
@@ -91,7 +87,6 @@ h1 {
   width: 335px;
   height: 225px;
   display: flex;
-  
 }
 .baking_item:hover {
   background: #ebad51;
@@ -129,13 +124,34 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 125px;
-  
 }
 @media (max-width: 768px) {
   .baking_list {
-   flex-direction: column;
-   align-items: center;
-   width: auto;
-   row-gap: 100px;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 100px;
   }
- }
+}
+@media (max-width: 320px) {
+  .nav_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 20px;
+  }
+  .baking_item {
+    width: 250px;
+  }
+  .baking_item img {
+    width: 130px;
+    display: flex;
+    align-items: center;
+  }
+  .baking_group p {
+    width: 70px;
+  }
+  h1 {
+    width: 300px;
+  }
+}

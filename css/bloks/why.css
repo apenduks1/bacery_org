@@ -4,7 +4,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
 .why_p {
   color: #fff;
@@ -15,38 +14,46 @@
   line-height: normal;
 }
 .why_title {
-  padding: 55px 130px;
+  padding: 100px;
   color: #d9d9d9;
   font-family: Italiana;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0;
 }
 .why_list {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between ;
   padding-left: 16px;
-  margin-top: 205px ;
-  gap:200px;
-  justify-content: center;
+  margin-top: 205px;
 }
 .why_item:hover path {
   fill: #2196f3;
   transition: 0.9s;
 }
 .why_item:hover p {
-  color:  #2196f3;
+  color: #2196f3;
   transition: 0.9s;
 }
 .why_overlay {
-  background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0.00) 100%);
+  padding: 55px 0px 57px;
+  background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 100%);
 }
 @media (max-width: 768px) {
   .why_list {
-   flex-direction: column;
-   align-items: center;
-   width: auto;
-   row-gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 50px;
   }
- }
+  .why_item {
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .why_title {
+    padding: 0;
+  }
+}
