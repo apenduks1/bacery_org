@@ -41,19 +41,3 @@
   padding: 55px 0px 57px;
   background: linear-gradient(89deg, #000 0%, rgba(3, 3, 3, 0) 100%);
 }
-@media (max-width: 768px) {
-  .why_list {
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    row-gap: 50px;
-  }
-  .why_item {
-    margin: 0;
-  }
-}
-@media (max-width: 768px) {
-  .why_title {
-    padding: 0;
-  }
-}

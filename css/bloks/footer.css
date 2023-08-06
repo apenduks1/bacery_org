@@ -8,7 +8,6 @@ footer {
 }
 .footer_div1 {
   margin-left:110px;
-  
 }
 .footer_title {
   color: #fff;
@@ -17,7 +16,6 @@ footer {
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-  
 }
 .footer_desckr1 {
   color: #fff;
@@ -49,26 +47,4 @@ footer {
 .where_list {
   display: flex;
   justify-content: space-between;
-}
-@media (max-width: 768px) {
-  .footer_info {
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    row-gap: 50px;
-  }
-  .footer_div4  {
-    margin-left: 40px;
-  }
-}
-@media (max-width: 300px) {
-  .footer_div1 {
-    margin-left: 0px;
-  }
-  .footer_info {
-    margin: 0;
-  }
-  .footer_div4  {
-    margin-left: 60px;
-  }
 }

@@ -125,33 +125,3 @@ h1 {
   justify-content: space-between;
   margin-top: 125px;
 }
-@media (max-width: 768px) {
-  .baking_list {
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    row-gap: 100px;
-  }
-}
-@media (max-width: 320px) {
-  .nav_list {
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    row-gap: 20px;
-  }
-  .baking_item {
-    width: 250px;
-  }
-  .baking_item img {
-    width: 130px;
-    display: flex;
-    align-items: center;
-  }
-  .baking_group p {
-    width: 70px;
-  }
-  h1 {
-    width: 300px;
-  }
-}
