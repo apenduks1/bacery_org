@@ -82,6 +82,9 @@ h1 {
   color: black;
   transition: 2s;
 }
+.baking_overlay {
+  background: linear-gradient(66deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+}
 .baking_item {
   background: #272727;
   width: 335px;
