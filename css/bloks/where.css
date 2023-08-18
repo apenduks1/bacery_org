@@ -15,6 +15,7 @@
 .where_img iframe {
   width: 535.213px;
   height: 487px;
+  margin-bottom: 50px;
 }
 .where_groups {
   margin-left: 137px;
@@ -57,6 +58,6 @@
   margin-top: 50px;
 }
 .when {
-  margin-left: 132px;
+  margin-left: 250px;
   margin-top: 50px;
 }

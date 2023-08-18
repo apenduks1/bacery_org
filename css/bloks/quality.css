@@ -34,6 +34,7 @@
   margin: 0;
   padding-bottom: 30px;
   padding-left: 0;
+  justify-content: space-between;
 }
 .quality_item_big1 {
   margin-left: 30px;

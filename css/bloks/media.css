@@ -3,17 +3,95 @@
     max-width: 1140px;
     margin: 0 auto;
   }
-} 
-@media ( max-width:1199px) {
+  .hamburger {
+    display: none;
+  }
+  
+}
+@media (max-width: 1199px) {
   .container {
     max-width: 960px;
     margin: 0 auto;
   }
+  .baking_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 100px;
+  }
+  .quality_list {
+    width: 275px;
+  }
+  .where_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 50px;
+  }
+  .when {
+    margin-left: 40px;
+  }
+  .footer_info {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 50px;
+  }
+  .hamburger {
+    display: none;
+  }
 }
-@media ( max-width: 992px) {
+@media (max-width: 992px) {
   .container {
-    max-width:  720px;
+    max-width: 720px;
     margin: 0 auto;
+  }
+  .baking_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 100px;
+  }
+  .menu_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .quality_list_big {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 30px;
+  }
+  .why_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 50px;
+  }
+  .where_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 50px;
+  }
+  .when {
+    margin-left: 40px;
+  }
+  .footer_list {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 50px;
+  }
+  .footer_info {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    row-gap: 50px;
+  }
+  .hamburger {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -34,20 +112,20 @@
     flex-direction: column;
     align-items: center;
     width: auto;
-   }
-   .menu_btn_1 {
+  }
+  .menu_btn_1 {
     margin-top: 4px;
-   }
-   .menu_btn2 {
+  }
+  .menu_btn2 {
     margin-top: 4px;
-   }
-   .quality_list_big {
+  }
+  .quality_list_big {
     flex-direction: column;
     align-items: center;
     width: auto;
     row-gap: 30px;
-   }
-   .why_list {
+  }
+  .why_list {
     flex-direction: column;
     align-items: center;
     width: auto;
@@ -61,6 +139,9 @@
     align-items: center;
     width: auto;
     row-gap: 50px;
+  }
+  .when {
+    margin-left: 40px;
   }
   .where_img iframe {
     width: 300px;
@@ -76,6 +157,9 @@
     row-gap: 50px;
   }
 }
+.hamburger {
+  display: none;
+}
 @media (max-width: 576px) {
   .container {
     max-width: 100%;
@@ -83,6 +167,12 @@
   }
   .logo {
     width: 150px;
+  }
+  .overlay {
+    padding-top:1px ;
+  }
+  .main {
+    background: #202023;
   }
   .nav_list {
     flex-direction: column;
@@ -98,28 +188,25 @@
     display: flex;
     align-items: center;
   }
-  .baking_group p {
-    width: 70px;
-  }
   h1 {
     text-align: center;
-    font-size: 40px ;
+    font-size: 40px;
     width: auto;
   }
   .menu_in {
     width: 200px;
-    margin-left:1px;
-   }
-   .menu_list img {
+    margin-left: 1px;
+  }
+  .menu_list img {
     width: 200px;
-   }
-   .menu_btn_1 {
+  }
+  .menu_btn_1 {
     margin-top: 4px;
-   }
-   .menu_btn2 {
+  }
+  .menu_btn2 {
     margin-top: 4px;
-   }
-   .quality_img {
+  }
+  .quality_img {
     width: 200px;
   }
   .quality_item {
@@ -138,11 +225,24 @@
     margin: 0;
   }
   .when {
+    margin-left: 40px;
+  }
+  .when {
     margin: 0;
   }
   .where_img iframe {
     width: 200px;
     height: 200px;
+  }
+  .footer_title {
+    text-align: center;
+    width: auto;
+  }
+  .footer_desckr1 {
+    text-align: center;
+  }
+  .footer_deckr2 {
+    text-align: center;
   }
   .footer_div1 {
     margin-left: 0px;
@@ -150,4 +250,26 @@
   .footer_info {
     margin: 0;
   }
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 29px;
+    right: 5px;
+  }
+  .nav_list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 85%;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    transition: 0.5s;
+    z-index: 200000000000000000000000;
+    row-gap: 40px;
+  }
+.menu_active {
+  left: 0;
+}
 }
