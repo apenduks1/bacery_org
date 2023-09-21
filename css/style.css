@@ -6,3 +6,21 @@
 @import "./bloks/where.css";
 @import "./bloks/footer.css";
 @import "./bloks/media.css";
+.scroll-to-top {
+    width: 45px; 
+    height: 45px;
+    background-color:darkorange;
+    border: none;
+    border-radius:100% ;
+    position: fixed;
+    right: 20px;
+    bottom:20px;
+    
+  }
+  .scroll-to-top i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+   
+  }
